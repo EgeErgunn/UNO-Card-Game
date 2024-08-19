@@ -1,0 +1,15 @@
+Ege played Red DrawTwo
+   Ege drew 2 cards
+Ege played WildDrawFour
+   Ege chose the color Red
+   Ege drew 4 cards
+Ege played Blue DrawTwo
+   Ege drew 2 cards
+Ege played WildDrawFour
+   Ege chose the color Blue
+   Ege drew 4 cards
+Ege played WildDrawFour
+   Ege chose the color Yellow
+   Ege drew 4 cards
+You are out of screen
+------------------------------

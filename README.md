@@ -32,7 +32,7 @@ Application usage information:
   - You can check the log from txts folder to Log.txt file but it will only store the last game played.
 
 Project Design Description:
-+ Class relations.
++ **Class relations.**
   - Card (abstract class, implements CardInterface)
   - ColorCard (extends Card)
   - WildCard (extends Card)
@@ -46,55 +46,55 @@ Project Design Description:
   - InvalidUsernamePassword(extends Exceptions)
   - And GUI classes (extends javax.swing.JFrame)
  
-+ Inheritances, type hierarchies, interfaces, abstract classes
- - The parent and child class hierarchy is: Player class is father class to both Bot and You classes, Card class is father class for colored card and wild card classes, and colored card class is father class for action card class.
- - Card class implements CardInterface interface, Player class implements PlayerInterface interface.
- - Card and Player classes should not be creatable so they are abstract classes.
++ **Inheritances, type hierarchies, interfaces, abstract classes**
+  - The parent and child class hierarchy is: Player class is father class to both Bot and You classes, Card class is father class for colored card and wild card classes, and colored card class is father class for action card class.
+  - Card class implements CardInterface interface, Player class implements PlayerInterface interface.
+  - Card and Player classes should not be creatable so they are abstract classes.
  
-+ .txt file processing details
- - Accounts, game saves and log is written to a text file as a String.
- - When uploading accounts or game it takes as a string, then split by “:” then use the proper parts of the string array.
- - The game log stores the last played game as a text. (When uploading or saving or creating new game, log.txt text file deletes the current text)
++ **.txt file processing details**
+  - Accounts, game saves and log is written to a text file as a String.
+  - When uploading accounts or game it takes as a string, then split by “:” then use the proper parts of the string array.
+  - The game log stores the last played game as a text. (When uploading or saving or creating new game, log.txt text file deletes the current text)
  
-+ Your game session loop implementation
- - The method nextPlayerTurn() handles the transition between turns.
- - The game keeps track of the current player using an index (roundIndex).
- - The current player (determined by roundIndex) plays a card using playCard(card).
- - The index is updated to point to the next player (roundIndex++).
- - Then it calls nextPlayerTurn() again, this way game will repeat recursively.
- - When it is user’s turn, it will not call nextPlayerTurn() but after playing any card or drawing a card will call nextPlayerTurn() again.
++ **Game session loop implementation**
+  - The method nextPlayerTurn() handles the transition between turns.
+  - The game keeps track of the current player using an index (roundIndex).
+  - The current player (determined by roundIndex) plays a card using playCard(card).
+  - The index is updated to point to the next player (roundIndex++).
+  - Then it calls nextPlayerTurn() again, this way game will repeat recursively.
+  - When it is user’s turn, it will not call nextPlayerTurn() but after playing any card or drawing a card will call nextPlayerTurn() again.
  
-+ Your computer bot implementation
- - When its bot’s turn a method search for card’s playability in bot hand. When loop finds a card, it plays it and breaks the loop. If can’t find card to play it draws from pile.
- - If bot play’s any wild card, it chooses color randomly.
++ **Computer bot implementation**
+  - When its bot’s turn a method search for card’s playability in bot hand. When loop finds a card, it plays it and breaks the loop. If can’t find card to play it draws from pile.
+  - If bot play’s any wild card, it chooses color randomly.
 
-+ GUI components.
- - Register/Login Screen:
-  * JPanel
-  * JButtons
-  * JTextField
-  * JPasswordField
-  * JOptionPane
- - Menu Screen:
-  * JPanel
-  * JButton
-  * JToggleButton
-  * JList
-  * JScrollPane
-  * JTextPane
-  * JOptionPane
- - Create Game Screen:
-  * JPanel
-  * JButton
-  * JTextField
- - GameplayScreen:
-   * JPane
-   * JButton
-   * JTextPane
-   * JScrollPane
-   * JOptionPane
++ **GUI components.**
+  - *Register/Login Screen:*
+    * JPanel
+    * JButtons
+    * JTextField
+    * JPasswordField
+    * JOptionPane
+  - *Menu Screen:*
+    * JPanel
+    * JButton
+    * JToggleButton
+    * JList
+    * JScrollPane
+    * JTextPane
+    * JOptionPane
+  - *Create Game Screen:*
+    * JPanel
+    * JButton
+    * JTextField
+  - *GameplayScreen:*
+     * JPane
+     * JButton
+     * JTextPane
+     * JScrollPane
+     * JOptionPane
 
-Installation
+**Installation**
 1. Clone the Repository
 2. Open Eclipse.
 3. Go to File > Import.

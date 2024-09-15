@@ -2,7 +2,7 @@
 Playing the UNO card game against bots
 
 
-Application usage information:
+***Application usage information:***
 + **Register/Login Guide**
   - In my application register and login are very simple, if you want to register press “Register” then create your account, if you already have one then type your username and password and login.
   - Username must include only letters and numbers, you cannot create an account with same username.
@@ -31,7 +31,7 @@ Application usage information:
 + **How to check log information**
   - You can check the log from txts folder to Log.txt file but it will only store the last game played.
 
-Project Design Description:
+***Project Design Description:***
 + **Class relations.**
   - Card (abstract class, implements CardInterface)
   - ColorCard (extends Card)
@@ -94,7 +94,7 @@ Project Design Description:
      * JScrollPane
      * JOptionPane
 
-**Installation**
+***Installation***
 1. Clone the Repository
 2. Open Eclipse.
 3. Go to File > Import.

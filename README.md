@@ -94,18 +94,18 @@ Project Design Description:
   * JScrollPane
   * JOptionPane
 
-+ Installation
- 1. Clone the Repository
- 2. Open Eclipse.
- 3. Go to File > Import.
- 4. Select Git > Projects from Git and click Next.
- 5. Choose Clone URI and click Next.
- 6. Paste the repository URL into the URI field and the rest of the fields should auto-fill.
- 7. Click Next, select the branches you want (usually just the main or master branch), and click Next again.
- 8. Choose the local directory where you'd like to store the project, and click Finish.
- 9. Go to File > Import.
- 10. Select Existing Projects into Workspace under General and click Next.
- 11. Browse to the directory where you cloned the repository and click Finish. This will import the project into Eclipse.
- 12. Once the project is imported, find the Sudoku file.
- 13. Right-click the file in the Project Explorer.
- 14. Choose Run As > Java Application.
+Installation
+1. Clone the Repository
+2. Open Eclipse.
+3. Go to File > Import.
+4. Select Git > Projects from Git and click Next.
+5. Choose Clone URI and click Next.
+6. Paste the repository URL into the URI field and the rest of the fields should auto-fill.
+7. Click Next, select the branches you want (usually just the main or master branch), and click Next again.
+8. Choose the local directory where you'd like to store the project, and click Finish.
+9. Go to File > Import.
+10. Select Existing Projects into Workspace under General and click Next.
+11. Browse to the directory where you cloned the repository and click Finish. This will import the project into Eclipse.
+12. Once the project is imported, find the Sudoku file.
+13. Right-click the file in the Project Explorer.
+14. Choose Run As > Java Application.

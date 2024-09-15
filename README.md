@@ -3,33 +3,33 @@ Playing the UNO card game against bots
 
 
 Application usage information:
-+ Register/Login Guide
- - In my application register and login are very simple, if you want to register press “Register” then create your account, if you already have one then type your username and password and login.
- - Username must include only letters and numbers, you cannot create an account with same username.
-+ User Info
- - Every user’s total score, number of played games, number of wins, number of losses, win ratio and score per game parameters are stored in a text file.
-+ Menu Guide
- - Leader board ( for more detail look for leader board info)
- - Adding bots: if you want to create new game with bots, you must add bots in menu screen with toggle buttons.
- - Logout Button: Goes back to login screen.
- - Exit Button: EXITS
- - Play Button: Will open a screen, you can create new session with name or continue the last saved one.
- - Music On/Off(Toggle Button): Not usuable yet.
-+ Game Session Gameplay
- - Card Symbols are: S = Skip, W= Wild Card, +2=DrawTwo, +4=WildDrawFour, <=Reverse,
- - You can play any playable card in your hand by pressing on Card image (Button).
- - If you do not have any playable card you should draw card from deck (which will draw card and skip your turn)
- - When you have 2 cards and one is playable, before playing the card press UNO button to say uno.
- - If you play any wild card, the color choose popup will appear just click on the color you want to choose.
- - To get information about the current color and the direction of the game. Press the center card (Button).
-+ Saving/Loading Game Sessions
- - You can save & exit anytime by pressing “SAVE & EXIT” button. (Exits to menu)
- - If you want to play loaded game just press “PLAY” from menu, then press “CONTINUE GAME”.
-+ Leader board (Info)
- - By clicking any user’s name, you can see the stats about that account.
- - Accounts are sorted according to total scores.
-+ How to check log information
- - You can check the log from txts folder to Log.txt file but it will only store the last game played.
++ **Register/Login Guide**
+  - In my application register and login are very simple, if you want to register press “Register” then create your account, if you already have one then type your username and password and login.
+  - Username must include only letters and numbers, you cannot create an account with same username.
++ **User Info**
+  - Every user’s total score, number of played games, number of wins, number of losses, win ratio and score per game parameters are stored in a text file.
++ **Menu Guide**
+  - Leader board ( for more detail look for leader board info)
+  - Adding bots: if you want to create new game with bots, you must add bots in menu screen with toggle buttons.
+  - Logout Button: Goes back to login screen.
+  - Exit Button: EXITS
+  - Play Button: Will open a screen, you can create new session with name or continue the last saved one.
+  - Music On/Off(Toggle Button): Not usuable yet.
++ **Game Session Gameplay**
+  - Card Symbols are: S = Skip, W= Wild Card, +2=DrawTwo, +4=WildDrawFour, <=Reverse,
+  - You can play any playable card in your hand by pressing on Card image (Button).
+  - If you do not have any playable card you should draw card from deck (which will draw card and skip your turn)
+  - When you have 2 cards and one is playable, before playing the card press UNO button to say uno.
+  - If you play any wild card, the color choose popup will appear just click on the color you want to choose.
+  - To get information about the current color and the direction of the game. Press the center card (Button).
++ **Saving/Loading Game Sessions**
+  - You can save & exit anytime by pressing “SAVE & EXIT” button. (Exits to menu)
+  - If you want to play loaded game just press “PLAY” from menu, then press “CONTINUE GAME”.
++ **Leader board (Info)**
+  - By clicking any user’s name, you can see the stats about that account.
+  - Accounts are sorted according to total scores.
++ **How to check log information**
+  - You can check the log from txts folder to Log.txt file but it will only store the last game played.
 
 Project Design Description:
 + Class relations.
@@ -88,11 +88,11 @@ Project Design Description:
   * JButton
   * JTextField
  - GameplayScreen:
-  * JPane
-  * JButton
-  * JTextPane
-  * JScrollPane
-  * JOptionPane
+   * JPane
+   * JButton
+   * JTextPane
+   * JScrollPane
+   * JOptionPane
 
 Installation
 1. Clone the Repository

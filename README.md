@@ -16,7 +16,12 @@ Playing the UNO card game against bots
   - Play Button: Will open a screen, you can create new session with name or continue the last saved one.
   - Music On/Off(Toggle Button): Not usuable yet.
 + **Game Session Gameplay**
-  - Card Symbols are: S = Skip, W= Wild Card, +2=DrawTwo, +4=WildDrawFour, <=Reverse,
+  - Card Symbols are:
+      * *S* = Skip
+      * *W* = Wild Card
+      * *+2* = DrawTwo
+      * *+4* = WildDrawFour
+      * *<* = Reverse,
   - You can play any playable card in your hand by pressing on Card image (Button).
   - If you do not have any playable card you should draw card from deck (which will draw card and skip your turn)
   - When you have 2 cards and one is playable, before playing the card press UNO button to say uno.

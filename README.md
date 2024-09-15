@@ -33,18 +33,18 @@ Application usage information:
 
 Project Design Description:
 + Class relations.
- - Card (abstract class, implements CardInterface)
- - ColorCard (extends Card)
- - WildCard (extends Card)
- - ActionCard (extends ColorCard)
- - Player (abstract class, implements PlayerInterface)
- - You (extends Player)
- - Bot (extends Player)
- - Deck (class)
- - GameSession(class)
- - UnoGameLog(class)
- - InvalidUsernamePassword(extends Exceptions)
- - And GUI classes (extends javax.swing.JFrame)
+  - Card (abstract class, implements CardInterface)
+  - ColorCard (extends Card)
+  - WildCard (extends Card)
+  - ActionCard (extends ColorCard)
+  - Player (abstract class, implements PlayerInterface)
+  - You (extends Player)
+  - Bot (extends Player)
+  - Deck (class)
+  - GameSession(class)
+  - UnoGameLog(class)
+  - InvalidUsernamePassword(extends Exceptions)
+  - And GUI classes (extends javax.swing.JFrame)
  
 + Inheritances, type hierarchies, interfaces, abstract classes
  - The parent and child class hierarchy is: Player class is father class to both Bot and You classes, Card class is father class for colored card and wild card classes, and colored card class is father class for action card class.
